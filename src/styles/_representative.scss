@@ -1,0 +1,16 @@
+.representative-landing-page {
+
+  .representative-content {
+    a {
+      color: #007bff;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  a.is-current {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}

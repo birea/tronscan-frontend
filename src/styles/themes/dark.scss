@@ -1,0 +1,51 @@
+.theme-dark {
+  background-size: cover;
+  background: #222 url(../images/body_backgound_dark_theme_transparent.png) fixed no-repeat;
+  background-position: center -200px;
+
+  .header-top {
+    background: radial-gradient(at 50% -20%, #343a40bd, #111111ad) fixed;
+    height:108px;
+  }
+
+
+  .top-bar.navbar-dark .navbar-nav .nav-link {
+    color: $color-grey;
+  }
+  .home {
+    .bg-white {
+      background-color: #000 !important;
+      color: #e5e5e5;
+
+      .card {
+        background-color: #000;
+      }
+    }
+
+    .bg-light-grey {
+      background-color: #333;
+      color: #e5e5e5;
+    }
+  }
+
+
+  .token-cards {
+    background-color: #24292e;
+    border: 1px solid #24292e;
+    color: #FFFFFF;
+
+
+    .progress-bar {
+      background-color: #fff;
+    }
+  }
+
+  .token-cards:hover {
+    background-color: #D2D1D1 !important;
+    color: #333 !important;
+    .token-info {
+      background-color: #24292e;
+    }
+  }
+
+}
